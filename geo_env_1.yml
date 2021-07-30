@@ -1,0 +1,16 @@
+name: geo1
+
+channels:
+ - conda-forge
+ - nodefaults
+
+dependencies:
+ - python
+ - jupyterlab
+ - numpy
+ - matplotlib
+ - pandas
+ - geopandas
+ - netcdf4
+ - earthpy
+ - pickle5
