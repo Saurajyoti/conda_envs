@@ -1,0 +1,15 @@
+name: data_model_1
+
+channels:
+ - conda-forge
+ - nodefaults
+
+dependencies:
+ - python
+ - spyder
+ - jupyterlab
+ - numpy
+ - matplotlib
+ - pandas
+ - requests
+ - seaborn
