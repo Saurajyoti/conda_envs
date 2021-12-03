@@ -9,7 +9,9 @@ dependencies:
  - spyder
  - jupyterlab
  - numpy
- - matplotlib
  - pandas
  - requests
+ - matplotlib
  - seaborn
+ - plotly
+ - openpyxl
