@@ -5,6 +5,7 @@ channels:
  - nodefaults
 
 dependencies:
+ - git
  - python
  - spyder
  - jupyterlab
