@@ -15,5 +15,9 @@ dependencies:
  - matplotlib
  - seaborn
  - plotly
+ - xlwings
  - openpyxl
  - python-kaleido
+ - pip
+ - pip:
+   - cpi
