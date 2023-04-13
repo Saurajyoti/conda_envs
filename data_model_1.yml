@@ -10,13 +10,13 @@ dependencies:
  - spyder
  - jupyterlab
  - numpy
- - pandas
+ - pandas=1.5.3 # 2.0.0 has issue with Spyder's Variable Explorer
  - requests
  - matplotlib
  - seaborn
  - plotly
  - xlwings
- - openpyxl
+ - openpyxl=3.1.0
  - python-kaleido
  - pip
  - pip:
