@@ -10,7 +10,7 @@ dependencies:
  - spyder
  - jupyterlab
  - numpy
- - pandas=1.5.3 # 2.0.0 has issue with Spyder's Variable Explorer
+ - pandas # use 1.5.3 if issue with v2.0.0 with Spyder's Variable Explorer persists
  - requests
  - matplotlib
  - seaborn
@@ -20,4 +20,4 @@ dependencies:
  - python-kaleido
  - pip
  - pip:
-   - cpi
+   - cpi 
