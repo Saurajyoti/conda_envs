@@ -21,6 +21,7 @@ dependencies:
  - pip
  - pip:
    - cpi 
+   - pyarrow
    - requests
    - fuzzywuzzy
    - python-Levenshtein
