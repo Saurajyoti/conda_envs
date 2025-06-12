@@ -18,6 +18,9 @@ dependencies:
  - xlwings
  - openpyxl=3.1.0
  - python-kaleido
+ - spacy
+ - xarray
+ - netCDF4
  - pip
  - pip:
    - cpi 
@@ -25,3 +28,4 @@ dependencies:
    - requests
    - fuzzywuzzy
    - python-Levenshtein
+   - en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
