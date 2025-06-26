@@ -11,6 +11,7 @@ dependencies:
  - jupyterlab
  - numpy
  - pandas # use 1.5.3 if issue with v2.0.0 with Spyder's Variable Explorer persists
+ - geopandas
  - requests
  - matplotlib
  - seaborn
