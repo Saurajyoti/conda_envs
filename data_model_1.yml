@@ -5,12 +5,17 @@ channels:
   - defaults
 
 dependencies:
+  - git
   - python
   - ipykernel
+  - spyder
+  - jupyterlab
   - numpy
   - pandas
   - geopandas
   - geodatasets
+  - contextily
+  - folium
   - requests
   - matplotlib
   - seaborn
@@ -28,3 +33,6 @@ dependencies:
   - pip
   - pip:
       - cpi
+      - fuzzywuzzy
+      - python-Levenshtein
+      - networkx
