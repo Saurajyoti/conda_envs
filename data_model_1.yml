@@ -2,7 +2,7 @@ name: data_model_1
 
 channels:
   - conda-forge
-  - nodefaults
+  - defaults
 
 dependencies:
   - python
@@ -24,8 +24,6 @@ dependencies:
   - regionmask
   - cftime
   - dask
-  - esmpy
-  - xesmf
   - pyarrow
   - pip
   - pip:
