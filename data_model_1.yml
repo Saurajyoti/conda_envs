@@ -2,7 +2,7 @@ name: data_model_1
 
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 
 dependencies:
   - git
@@ -30,9 +30,9 @@ dependencies:
   - cftime
   - dask
   - pyarrow
+  - fuzzywuzzy
+  - python-levenshtein
+  - networkx
   - pip
   - pip:
       - cpi
-      - fuzzywuzzy
-      - python-Levenshtein
-      - networkx
