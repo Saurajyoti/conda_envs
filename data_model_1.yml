@@ -11,6 +11,13 @@ dependencies:
   - ipykernel
   - spyder
   - jupyterlab
+
+  # C++ compilation/build tools
+  - cxx-compiler
+  - cmake
+  - ninja
+  - make
+  
   - numpy
   - pandas
   - geopandas
